@@ -18,7 +18,7 @@ retry-config:
   sleep-time-ms: 2000
 
 kafka-config:
-  bootstrap-servers: localhost:19092, localhost:29092, localhost:39092
+  bootstrap-servers: 192.168.99.100:19092, 192.168.99.100:29092, 192.168.99.100:39092
   schema-registry-url-key: schema.registry.url
   schema-registry-url: http://localhost:8081
   topic-name: twitter-topic
