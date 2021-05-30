@@ -39,4 +39,3 @@ elastic-config:
   connection-url: http://192.168.99.100:9200
   connect-timeout-ms: 5000
   socket-timeout-ms: 30000
-  is-repository: true
